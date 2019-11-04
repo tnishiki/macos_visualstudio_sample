@@ -1,7 +1,7 @@
 ﻿using AppKit;
 using Foundation;
 
-namespace macos_visualstudio_sample
+namespace sample_TableView
 {
     [Register("AppDelegate")]
     public class AppDelegate : NSApplicationDelegate

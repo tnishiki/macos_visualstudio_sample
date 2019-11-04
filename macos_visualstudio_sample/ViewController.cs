@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AppKit;
 using Foundation;
 
-namespace macos_visualstudio_sample
+namespace sample_TableView
 {
     public partial class ViewController : NSViewController
     {

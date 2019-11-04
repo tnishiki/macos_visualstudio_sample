@@ -1,6 +1,6 @@
 ﻿using AppKit;
 
-namespace macos_visualstudio_sample
+namespace sample_TableView
 {
     static class MainClass
     {

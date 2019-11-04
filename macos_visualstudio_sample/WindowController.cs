@@ -2,7 +2,7 @@
 using Foundation;
 using System;
 
-namespace macos_visualstudio_sample
+namespace sample_TableView
 {
     [Register("WindowController")]
     public class WindowController : NSWindowController

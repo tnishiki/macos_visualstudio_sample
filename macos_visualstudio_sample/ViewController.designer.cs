@@ -7,7 +7,7 @@
 using Foundation;
 using System.CodeDom.Compiler;
 
-namespace macos_visualstudio_sample
+namespace sample_TableView
 {
 	[Register ("ViewController")]
 	partial class ViewController
