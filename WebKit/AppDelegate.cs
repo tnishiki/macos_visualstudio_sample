@@ -2,7 +2,7 @@
 using WebKit;
 using Foundation;
 
-namespace sample_WebKit
+namespace WebKit
 {
     [Register("AppDelegate")]
     public class AppDelegate : NSApplicationDelegate

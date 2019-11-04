@@ -1,16 +1,15 @@
-﻿using AppKit;
+﻿using System;
+using AppKit;
 using Foundation;
-using System;
 
-namespace sample_TableView
+namespace TableView
 {
     [Register("WindowController")]
-    public class WindowController : NSWindowController
+    public class WindowController:NSWindowController
     {
-        public WindowController(IntPtr handle) :base(handle)
+        public WindowController(IntPtr handle): base(handle)
         {
         }
-
         [Action("newDocument:")]
         public void newDocument(NSObject sender)
         {

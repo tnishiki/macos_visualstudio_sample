@@ -6,7 +6,7 @@
     <ProjectGuid>{08CEE22C-1031-454A-A14B-22D76E6B89E2}</ProjectGuid>
     <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>sample_WebKit</RootNamespace>
+    <RootNamespace>WebKit</RootNamespace>
     <AssemblyName>WebKit</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>

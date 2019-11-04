@@ -4,7 +4,7 @@ using AppKit;
 using WebKit;
 using Foundation;
 
-namespace sample_WebKit
+namespace WebKit
 {
     public partial class ViewController : NSViewController
     {

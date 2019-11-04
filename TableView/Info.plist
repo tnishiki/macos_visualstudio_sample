@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>macos_visualstudio_sample</string>
+	<string>TableView</string>
 	<key>CFBundleIdentifier</key>
-	<string>jp.co.tnishiki.macos-visualstudio-sample</string>
+	<string>jp.co.tnishiki.TableView</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

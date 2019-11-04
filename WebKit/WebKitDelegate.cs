@@ -2,7 +2,7 @@
 using AppKit;
 using WebKit;
 
-namespace sample_WebKit
+namespace WebKit
 {
     public delegate void FncDidFinishCallback();
 

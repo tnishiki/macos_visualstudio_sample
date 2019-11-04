@@ -7,7 +7,7 @@
 using Foundation;
 using System.CodeDom.Compiler;
 
-namespace sample_WebKit
+namespace WebKit
 {
 	[Register ("ViewController")]
 	partial class ViewController

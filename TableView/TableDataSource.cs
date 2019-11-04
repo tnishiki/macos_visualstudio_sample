@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using AppKit;
 using Foundation;
 
-namespace sample_TableView
+namespace TableView
 {
     public class TableDataDelegate : NSTableViewDelegate
     {
@@ -53,7 +52,7 @@ namespace sample_TableView
         }
     }
 
-    public class TableDataSource: NSTableViewDataSource
+    public class TableDataSource : NSTableViewDataSource
     {
         public List<List<string>> Items { get; set; }
         public TableDataSource()

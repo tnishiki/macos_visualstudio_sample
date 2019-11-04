@@ -1,6 +1,6 @@
 ﻿using AppKit;
 
-namespace sample_WebKit
+namespace WebKit
 {
     static class MainClass
     {

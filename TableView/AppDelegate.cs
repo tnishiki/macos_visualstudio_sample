@@ -1,7 +1,7 @@
 ﻿using AppKit;
 using Foundation;
 
-namespace sample_TableView
+namespace TableView
 {
     [Register("AppDelegate")]
     public class AppDelegate : NSApplicationDelegate

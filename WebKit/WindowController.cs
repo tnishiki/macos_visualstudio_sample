@@ -2,7 +2,7 @@
 using AppKit;
 using Foundation;
 
-namespace sample_WebKit
+namespace WebKit
 {
     [Register("WindowController")]
     public class WindowController: NSWindowController

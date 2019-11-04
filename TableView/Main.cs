@@ -1,6 +1,6 @@
 ﻿using AppKit;
 
-namespace sample_TableView
+namespace TableView
 {
     static class MainClass
     {

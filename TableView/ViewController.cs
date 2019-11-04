@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AppKit;
 using Foundation;
 
-namespace sample_TableView
+namespace TableView
 {
     public partial class ViewController : NSViewController
     {
@@ -21,7 +21,6 @@ namespace sample_TableView
 
             GridView.DataSource = DataSource;
             GridView.Delegate = new TableDataDelegate(DataSource);
-
         }
 
         public override NSObject RepresentedObject
