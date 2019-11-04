@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableView", "macos_visualstudio_sample\TableView.csproj", "{045DEB64-BFB7-425C-98CD-D1FB896F3708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebKit", "WebKit\WebKit.csproj", "{08CEE22C-1031-454A-A14B-22D76E6B89E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{045DEB64-BFB7-425C-98CD-D1FB896F3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{045DEB64-BFB7-425C-98CD-D1FB896F3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{045DEB64-BFB7-425C-98CD-D1FB896F3708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CEE22C-1031-454A-A14B-22D76E6B89E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CEE22C-1031-454A-A14B-22D76E6B89E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CEE22C-1031-454A-A14B-22D76E6B89E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CEE22C-1031-454A-A14B-22D76E6B89E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
