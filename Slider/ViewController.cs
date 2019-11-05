@@ -5,8 +5,12 @@ using Foundation;
 
 namespace Slider
 {
+    public delegate void FncChangeCircularSliderValue();
+
     public partial class ViewController : NSViewController
     {
+        public FncChangeCircularSliderValue ChangedCircularSliderValueCallback = null;
+
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -39,11 +43,13 @@ namespace Slider
             {
                 WillChangeValue(nameof(CircularSliderValue));
                 _CircularSliderValue = value;
+                if (ChangedCircularSliderValueCallback != null)
+                {
+                    ChangedCircularSliderValueCallback();
+                }
                 DidChangeValue(nameof(CircularSliderValue));
             }
         }
-
-
 
         partial void CircularSliderAction(Foundation.NSObject sender)
         {
