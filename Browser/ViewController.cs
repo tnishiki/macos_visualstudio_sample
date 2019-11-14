@@ -40,6 +40,8 @@ namespace Browser
 
             OutlineView.Initialize();
 
+            ((OutlineViewDelegate)OutlineView.Delegate).EVOutlineViewClicked = EVOutlineViewClicked;
+
             {
                 var TableViews = new TreeDataItem("Vegetables");
                 TableViews.AddItem(new TreeDataItem("Cabbage"));
@@ -57,6 +59,14 @@ namespace Browser
 
             OutlineView.ReloadData();
             OutlineView.ExpandItem(null, true);
+        }
+
+        // item of OutlineView 
+        public void EVOutlineViewClicked(NSOutlineView outlineView, TreeDataItem item)
+        {
+            var u = item;
+
+            SelectItemName.StringValue = u.Name;
         }
     }
 }

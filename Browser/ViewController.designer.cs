@@ -17,6 +17,9 @@ namespace Browser
 
 		[Outlet]
 		Browser.OutlineView OutlineView { get; set; }
+
+		[Outlet]
+		AppKit.NSTextField SelectItemName { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
@@ -28,6 +31,11 @@ namespace Browser
 			if (OutlineView != null) {
 				OutlineView.Dispose ();
 				OutlineView = null;
+			}
+
+			if (SelectItemName != null) {
+				SelectItemName.Dispose ();
+				SelectItemName = null;
 			}
 		}
 	}

@@ -5,9 +5,12 @@ using ObjCRuntime;
 
 namespace Browser
 {
+    public delegate void EVOutlineViewClicked(NSOutlineView outlineView, TreeDataItem item);
+
     public class OutlineViewDelegate : NSOutlineViewDelegate
     {
         private OutlineView _controller;
+        public EVOutlineViewClicked EVOutlineViewClicked { get;set;} =null;
 
         public OutlineViewDelegate()
         {
@@ -38,6 +41,20 @@ namespace Browser
             }
 
             return view;
+        }
+        public override void DidClickTableColumn(NSOutlineView outlineView, NSTableColumn tableColumn)
+        {
+            // click table header
+        }
+        [Export("outlineView:shouldSelectItem:")]
+        public override bool ShouldSelectItem(NSOutlineView outlineView, NSObject item)
+        {
+            if (item is TreeDataItem)
+            {
+                EVOutlineViewClicked?.Invoke(outlineView,(TreeDataItem)item);
+            }
+
+            return true;
         }
     }
 }
